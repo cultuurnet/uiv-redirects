@@ -1,0 +1,3 @@
+default: '--tags "not @wip" --publish-quiet features'
+wip: '--tags @wip --publish-quiet features'
+all: '--publish-quiet features'

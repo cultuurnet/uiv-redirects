@@ -1,0 +1,4 @@
+base_url:
+  acceptance: 'https://acc.uitinvlaanderen.be'
+  testing: 'https://test.uitinvlaanderen.be'
+  production: 'https://www.uitinvlaanderen.be'
