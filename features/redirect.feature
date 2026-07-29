@@ -10,4 +10,7 @@ Feature: Test the UiTinVlaanderen redirects
 
     Examples:
       | source       | destination                         |
-      | /over/uitpas | https://www.uitpas.be/wat-is-uitpas |
+      | /vlieg | /samenmetkinderen |
+      | /uitx | /voorjongeren |
+      | /agenda/voor-kinderen* | /samenmetkinderen/agenda/* |
+      | /agenda?targets=uitx* | /voorjongeren/agenda/* |
