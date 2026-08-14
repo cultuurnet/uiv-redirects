@@ -6,6 +6,7 @@ Feature: Test the UiTinVlaanderen redirects
   Scenario Outline: Redirect
     When I send a GET request to "<source>"
     Then the response status should be 301
+    And  the response header 'Cache-Control' should be 'max-age=86400'
     And  the response header 'Location' should be '<destination>'
 
     Examples:
